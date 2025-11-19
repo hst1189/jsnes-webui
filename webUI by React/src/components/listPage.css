@@ -7,7 +7,16 @@
   display: block;
   padding: 0.75rem 1.25rem;
   background-color: #000;
-  border: 1px solid #dee2e6;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.ListPage .list-group-item:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color:black;
 }
 
 .ListPage .list-group-item .delete {

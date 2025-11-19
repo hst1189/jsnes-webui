@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Screen.css";
+import "./screen.css";
 
 const SCREEN_WIDTH = 256;
 const SCREEN_HEIGHT = 240;
@@ -8,7 +8,7 @@ class Screen extends Component {
   render() {
     return (
       <canvas
-        className="Screen"
+        className="screen"
         width={SCREEN_WIDTH}
         height={SCREEN_HEIGHT}
         onMouseDown={this.handleMouseDown}

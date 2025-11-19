@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { Button, Progress } from "reactstrap";
 import { Link, useLocation, useParams } from "react-router-dom";
-
-import config from "./config";
 import ControlsModal from "./ControlsModal";
 import Emulator from "./Emulator";
 import RomLibrary from "./RomLibrary";
-import { loadBinary } from "./utils";
-
-import "./RunPage.css";
+import { loadBinary } from "./Utils";
+import config from "../config";
+import "./runPage.css";
 
 function withParams(Component) {
   return (props) => (

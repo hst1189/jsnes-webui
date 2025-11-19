@@ -1,6 +1,2 @@
-/build
-/node_modules
-/public/roms/local
-/src/index.css
-.DS_Store
-yarn-error.log
+/webUI by React/build
+/webUI by React/node_modules

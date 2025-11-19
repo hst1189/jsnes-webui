@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./ListPage.css";
 import { ListGroup } from "reactstrap";
 import { Link } from "react-router-dom";
-import config from "./config";
-
 import RomLibrary from "./RomLibrary";
+import "./listPage.css";
+import config from "../config";
 
 class ListPage extends Component {
   constructor(props) {
@@ -25,18 +24,11 @@ class ListPage extends Component {
             <div className="col-md-8">
               <header className="mb-4">
                 <h1 className="mb-3">JSNES</h1>
-                <p>
-                  A JavaScript NES emulator.{" "}
-                  <a href="https://github.com/bfirsh/jsnes">
-                    Source on GitHub.
-                  </a>
-                </p>
+                <p>A JavaScript NES emulator.</p>
               </header>
 
               <ListGroup className="mb-4">
-                {Object.keys(config.ROMS)
-                  .sort()
-                  .map((key) => (
+                {Object.keys(config.ROMS).sort().map((key) => (
                     <Link
                       key={key}
                       to={"/run/" + encodeURIComponent(key)}
@@ -58,9 +50,7 @@ class ListPage extends Component {
                   <p>Previously played:</p>
 
                   <ListGroup className="mb-4">
-                    {this.state.romLibrary
-                      .sort((a, b) => new Date(b.added) - new Date(a.added))
-                      .map((rom) => (
+                    {this.state.romLibrary.sort((a, b) => new Date(b.added) - new Date(a.added)).map((rom) => (
                         <Link
                           key={rom.hash}
                           to={"run/local-" + rom.hash}

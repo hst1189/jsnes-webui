@@ -1,5 +1,5 @@
 import RingBuffer from "ringbufferjs";
-import { handleError } from "./utils";
+import { handleError } from "./Utils";
 
 export default class Speakers {
   constructor({ onBufferUnderrun }) {
