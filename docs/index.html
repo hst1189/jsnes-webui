@@ -141,7 +141,7 @@
     <script type="text/javascript" charset="utf-8">
         $(function () {
             try {
-                fetch('/roms/roms.json')
+                fetch('./roms/roms.json')
                     .then(response => response.json())
                     .then(data => {
                         console.log(data);
