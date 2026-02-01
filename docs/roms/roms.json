@@ -1,0 +1,39 @@
+{
+    "魂斗罗": {
+        "魂斗罗1(U)30" : "roms/Contra/Contra1(U)30.nes",
+        "魂斗罗1(U)30F": "roms/Contra/Contra1(U)30F.nes",
+        "魂斗罗1(U)30L": "roms/Contra/Contra1(U)30L.nes",
+        "魂斗罗1(U)30M": "roms/Contra/Contra1(U)30M.nes",
+        "魂斗罗1(U)30S": "roms/Contra/Contra1(U)30S.nes",
+        "魂斗罗1(U)F"  : "roms/Contra/Contra1(U)F.nes",
+        "魂斗罗1(U)L"  : "roms/Contra/Contra1(U)L.nes",
+        "魂斗罗1(U)M"  : "roms/Contra/Contra1(U)M.nes",
+        "魂斗罗1(U)S"  : "roms/Contra/Contra1(U)S.nes"
+    },
+    "吞食天地": {
+        "吞食天地1 Destiny of an Emperor1": "roms/Destiny of an Emperor/Destiny of an Emperor (j).nes",
+        "吞食天地2 Destiny of an Emperor2": "roms/Destiny of an Emperor/Destiny of an Emperor 2 (j).nes"
+    },
+    "双截龙": {
+        "双截龙1 Double Dragon1": "roms/Double Dragon/Double Dragon1.nes",
+        "双截龙2 Double Dragon2": "roms/Double Dragon/Double Dragon2.nes",
+        "双截龙3 Double Dragon3": "roms/Double Dragon/Double Dragon3.nes",
+        "双截龙4 Double Dragon4": "roms/Double Dragon/Double Dragon4.nes"
+    },
+    "最终幻想": {
+        "最终幻想1 Final Fantasy1": "roms/Final Fantsy/Final Fantasy(J).nes",
+        "最终幻想2 Final Fantasy2": "roms/Final Fantsy/Final Fantasy2(J).nes",
+        "最终幻想3 Final Fantasy3": "roms/Final Fantsy/Final Fantasy3(J).nes"
+    },
+    "超级玛丽": {
+        "超级马里奥1 Super Mario Bros."  : "roms/Super Mario/Super Mario Bros.nes",
+        "超级马里奥2 Super Mario Bros. 2": "roms/Super Mario/Super Mario Bros. 2.nes",
+        "超级马里奥3 Super Mario Bros. 3": "roms/Super Mario/Super Mario Bros. 3.nes",
+        "马里奥拆屋工 Wrecking Crew"     : "roms/Super Mario/(W) Wrecking Crew.nes",
+        "马里奥医生 Dr. Mario"           : "roms/Super Mario/Dr. Mario (JU).nes"
+    },
+    "经典": {
+        "七宝奇谋": "roms/Other/goonies.nes",
+        "半熟英雄": "roms/Other/Hanjuku Hero (J).nes"
+    }
+}
